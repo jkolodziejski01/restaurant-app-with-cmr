@@ -31,7 +31,7 @@ A modern, full-featured restaurant management system with customer ordering capa
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Database**: Supabase (PostgreSQL)
