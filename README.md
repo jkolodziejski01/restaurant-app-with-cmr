@@ -2,6 +2,8 @@
 
 A modern, full-featured restaurant management system with customer ordering capabilities. Built with Next.js 16, TypeScript, Tailwind CSS, and Supabase.
 
+# LIVE DEMO: https://restaurant-app-with-cmr.vercel.app/en
+
 ## Features
 
 ### Public Pages
@@ -31,7 +33,7 @@ A modern, full-featured restaurant management system with customer ordering capa
 
 ## Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Database**: Supabase (PostgreSQL)
