@@ -1,0 +1,381 @@
+{
+  "common": {
+    "appName": "Restaurant",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "clear": "Löschen",
+    "all": "Alle",
+    "none": "Keine",
+    "yes": "Ja",
+    "no": "Nein",
+    "or": "oder",
+    "and": "und",
+    "currency": "€",
+    "minutes": "Min",
+    "required": "Erforderlich"
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Speisekarte",
+    "cart": "Warenkorb",
+    "orders": "Meine Bestellungen",
+    "profile": "Profil",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "register": "Registrieren",
+    "admin": "Admin"
+  },
+  "home": {
+    "hero": {
+      "title": "Köstliches Essen, Frisch Geliefert",
+      "subtitle": "Erleben Sie authentische Aromen von unserer Küche bis zu Ihrer Haustür",
+      "cta": "Speisekarte",
+      "ctaSecondary": "Jetzt Bestellen"
+    },
+    "features": {
+      "title": "Warum Wir",
+      "freshIngredients": {
+        "title": "Frische Zutaten",
+        "description": "Wir verwenden nur die frischesten, lokal bezogenen Zutaten"
+      },
+      "fastDelivery": {
+        "title": "Schnelle Lieferung",
+        "description": "Heißes Essen in 30 Minuten oder weniger geliefert"
+      },
+      "easyOrdering": {
+        "title": "Einfache Bestellung",
+        "description": "Einfache Online-Bestellung mit Echtzeit-Verfolgung"
+      }
+    },
+    "popular": {
+      "title": "Beliebte Gerichte",
+      "viewAll": "Alle Anzeigen"
+    },
+    "testimonials": {
+      "title": "Was Unsere Kunden Sagen"
+    }
+  },
+  "menu": {
+    "title": "Unsere Speisekarte",
+    "subtitle": "Entdecken Sie unsere köstliche Auswahl",
+    "searchPlaceholder": "Gerichte suchen...",
+    "noResults": "Keine Gerichte gefunden, die Ihren Kriterien entsprechen",
+    "filters": {
+      "title": "Filter",
+      "categories": "Kategorien",
+      "dietary": "Ernährung",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "glutenFree": "Glutenfrei",
+      "maxPrice": "Höchstpreis",
+      "spiceLevel": "Schärfegrad",
+      "clearAll": "Alle Löschen"
+    },
+    "categories": {
+      "all": "Alle",
+      "appetizers": "Vorspeisen",
+      "main_courses": "Hauptgerichte",
+      "desserts": "Desserts",
+      "beverages": "Getränke",
+      "salads": "Salate",
+      "soups": "Suppen",
+      "sides": "Beilagen",
+      "specials": "Spezialitäten"
+    },
+    "item": {
+      "addToCart": "In den Warenkorb",
+      "outOfStock": "Ausverkauft",
+      "prepTime": "Zubereitungszeit",
+      "calories": "Kalorien",
+      "spicyLevel": "Schärfegrad",
+      "allergens": "Allergene",
+      "specialInstructions": "Besondere Wünsche",
+      "specialInstructionsPlaceholder": "Haben Sie besondere Wünsche?"
+    }
+  },
+  "cart": {
+    "title": "Ihr Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "emptySubtitle": "Fügen Sie leckere Artikel aus unserer Speisekarte hinzu",
+    "browseMenu": "Speisekarte Durchsuchen",
+    "item": "Artikel",
+    "items": "Artikel",
+    "quantity": "Menge",
+    "remove": "Entfernen",
+    "subtotal": "Zwischensumme",
+    "tax": "MwSt. (19%)",
+    "deliveryFee": "Liefergebühr",
+    "tip": "Trinkgeld",
+    "total": "Gesamtsumme",
+    "checkout": "Zur Kasse",
+    "continueShopping": "Weiter Einkaufen",
+    "updateQuantity": "Menge Aktualisieren",
+    "specialInstructions": "Besondere Wünsche"
+  },
+  "checkout": {
+    "title": "Kasse",
+    "customerInfo": "Kundeninformationen",
+    "orderType": "Bestellart",
+    "delivery": "Lieferung",
+    "pickup": "Abholung",
+    "deliveryAddress": "Lieferadresse",
+    "specialInstructions": "Besondere Wünsche",
+    "specialInstructionsPlaceholder": "Haben Sie besondere Wünsche für Ihre Bestellung?",
+    "payment": "Zahlung",
+    "paymentMethod": "Zahlungsmethode",
+    "card": "Kredit-/Debitkarte",
+    "cash": "Barzahlung bei Lieferung",
+    "cardNumber": "Kartennummer",
+    "cardholderName": "Karteninhaber",
+    "expiryDate": "Ablaufdatum",
+    "cvv": "CVV",
+    "tip": "Trinkgeld Hinzufügen",
+    "tipNone": "Kein Trinkgeld",
+    "tipCustom": "Benutzerdefiniert",
+    "orderSummary": "Bestellübersicht",
+    "placeOrder": "Bestellung Aufgeben",
+    "processing": "Wird verarbeitet...",
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "E-Mail",
+      "emailPlaceholder": "max@beispiel.de",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+49 123 456 7890",
+      "addressPlaceholder": "Musterstraße 123, Stadt, PLZ"
+    },
+    "validation": {
+      "nameRequired": "Name ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Ungültige E-Mail-Adresse",
+      "phoneRequired": "Telefonnummer ist erforderlich",
+      "phoneInvalid": "Ungültige Telefonnummer",
+      "addressRequired": "Lieferadresse ist erforderlich",
+      "cardNumberRequired": "Kartennummer ist erforderlich",
+      "cardNumberInvalid": "Ungültige Kartennummer",
+      "cardholderRequired": "Karteninhaber ist erforderlich",
+      "expiryRequired": "Ablaufdatum ist erforderlich",
+      "expiryInvalid": "Ungültiges Ablaufdatum",
+      "cvvRequired": "CVV ist erforderlich",
+      "cvvInvalid": "Ungültiger CVV"
+    }
+  },
+  "orders": {
+    "title": "Meine Bestellungen",
+    "noOrders": "Sie haben noch keine Bestellungen aufgegeben",
+    "viewMenu": "Speisekarte Durchsuchen",
+    "orderNumber": "Bestellung #",
+    "placedOn": "Aufgegeben am",
+    "status": "Status",
+    "total": "Gesamt",
+    "viewDetails": "Details Anzeigen",
+    "trackOrder": "Bestellung Verfolgen",
+    "reorder": "Erneut Bestellen",
+    "statuses": {
+      "pending": "Ausstehend",
+      "confirmed": "Bestätigt",
+      "preparing": "In Zubereitung",
+      "ready": "Bereit",
+      "out_for_delivery": "Unterwegs",
+      "delivered": "Geliefert",
+      "cancelled": "Storniert"
+    },
+    "statusDescriptions": {
+      "pending": "Ihre Bestellung wird überprüft",
+      "confirmed": "Ihre Bestellung wurde bestätigt",
+      "preparing": "Unsere Köche bereiten Ihre Bestellung zu",
+      "ready": "Ihre Bestellung ist bereit zur Abholung/Lieferung",
+      "out_for_delivery": "Ihre Bestellung ist unterwegs",
+      "delivered": "Ihre Bestellung wurde geliefert",
+      "cancelled": "Ihre Bestellung wurde storniert"
+    },
+    "estimatedTime": "Geschätzte Zeit",
+    "deliveryAddress": "Lieferadresse",
+    "orderItems": "Bestellte Artikel"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "personalInfo": "Persönliche Informationen",
+    "updateProfile": "Profil Aktualisieren",
+    "changePassword": "Passwort Ändern",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort Bestätigen",
+    "updatePassword": "Passwort Aktualisieren",
+    "deleteAccount": "Konto Löschen",
+    "deleteAccountWarning": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Ihre Daten werden dauerhaft gelöscht.",
+    "confirmDelete": "Ja, Mein Konto Löschen"
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen Zurück",
+      "subtitle": "Melden Sie sich bei Ihrem Konto an",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "forgotPassword": "Passwort Vergessen?",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren"
+    },
+    "register": {
+      "title": "Konto Erstellen",
+      "subtitle": "Werden Sie Teil unserer Gemeinschaft",
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort Bestätigen",
+      "submit": "Konto Erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden"
+    },
+    "forgotPassword": {
+      "title": "Passwort Zurücksetzen",
+      "subtitle": "Geben Sie Ihre E-Mail ein, um einen Reset-Link zu erhalten",
+      "email": "E-Mail",
+      "submit": "Reset-Link Senden",
+      "backToLogin": "Zurück zur Anmeldung",
+      "success": "Überprüfen Sie Ihre E-Mail auf einen Reset-Link"
+    },
+    "resetPassword": {
+      "title": "Neues Passwort Festlegen",
+      "password": "Neues Passwort",
+      "confirmPassword": "Passwort Bestätigen",
+      "submit": "Passwort Zurücksetzen"
+    },
+    "errors": {
+      "invalidCredentials": "Ungültige E-Mail oder Passwort",
+      "emailInUse": "Diese E-Mail ist bereits registriert",
+      "weakPassword": "Das Passwort muss mindestens 8 Zeichen haben",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "orders": "Bestellungen",
+      "menu": "Speisekarte",
+      "inventory": "Inventar",
+      "customers": "Kunden",
+      "settings": "Einstellungen"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "totalOrders": "Gesamte Bestellungen",
+      "totalRevenue": "Gesamtumsatz",
+      "averageOrder": "Durchschnittliche Bestellung",
+      "pendingOrders": "Ausstehende Bestellungen",
+      "todayOrders": "Heutige Bestellungen",
+      "todayRevenue": "Heutiger Umsatz",
+      "recentOrders": "Neueste Bestellungen",
+      "topItems": "Meistverkaufte Artikel",
+      "ordersByStatus": "Bestellungen nach Status",
+      "revenueChart": "Umsatz (Letzte 7 Tage)"
+    },
+    "orders": {
+      "title": "Bestellungsverwaltung",
+      "searchPlaceholder": "Bestellungen suchen...",
+      "filterByStatus": "Nach Status filtern",
+      "updateStatus": "Status Aktualisieren",
+      "orderDetails": "Bestelldetails",
+      "customerInfo": "Kundeninformationen",
+      "paymentInfo": "Zahlungsinformationen"
+    },
+    "menu": {
+      "title": "Speisekartenverwaltung",
+      "addItem": "Artikel Hinzufügen",
+      "editItem": "Artikel Bearbeiten",
+      "deleteItem": "Artikel Löschen",
+      "deleteConfirm": "Sind Sie sicher, dass Sie diesen Artikel löschen möchten?",
+      "form": {
+        "name": "Name (Englisch)",
+        "nameDE": "Name (Deutsch)",
+        "description": "Beschreibung (Englisch)",
+        "descriptionDE": "Beschreibung (Deutsch)",
+        "price": "Preis",
+        "category": "Kategorie",
+        "image": "Bild-URL",
+        "available": "Verfügbar",
+        "vegetarian": "Vegetarisch",
+        "vegan": "Vegan",
+        "glutenFree": "Glutenfrei",
+        "spiceLevel": "Schärfegrad",
+        "prepTime": "Zubereitungszeit (Minuten)",
+        "calories": "Kalorien",
+        "allergens": "Allergene (kommagetrennt)"
+      }
+    },
+    "inventory": {
+      "title": "Inventarverwaltung",
+      "lowStock": "Niedrige Lagerbestände",
+      "updateStock": "Bestand Aktualisieren",
+      "quantity": "Menge",
+      "threshold": "Mindestbestand",
+      "lastRestocked": "Zuletzt Aufgefüllt"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Zum Hauptinhalt springen",
+    "menuToggle": "Menü umschalten",
+    "themeToggle": "Thema umschalten",
+    "languageToggle": "Sprache ändern",
+    "closeModal": "Modal schließen",
+    "loading": "Inhalt wird geladen",
+    "cartIcon": "Warenkorb",
+    "increaseQuantity": "Menge erhöhen",
+    "decreaseQuantity": "Menge verringern"
+  },
+  "orderConfirmation": {
+    "title": "Bestellung Bestätigt!",
+    "subtitle": "Vielen Dank für Ihre Bestellung",
+    "orderNumber": "Bestellnummer",
+    "estimatedDelivery": "Geschätzte Lieferzeit",
+    "estimatedPickup": "Geschätzte Abholzeit",
+    "orderDetails": "Bestelldetails",
+    "items": "Artikel",
+    "subtotal": "Zwischensumme",
+    "tax": "MwSt. (19%)",
+    "deliveryFee": "Liefergebühr",
+    "tip": "Trinkgeld",
+    "total": "Gesamtsumme",
+    "delivery": "Lieferung",
+    "pickup": "Abholung",
+    "specialInstructions": "Besondere Wünsche",
+    "paymentInfo": "Zahlungsinformationen",
+    "paymentCompleted": "Zahlung abgeschlossen",
+    "cashOnDelivery": "Barzahlung bei Lieferung",
+    "payOnArrival": "Bezahlen Sie bei Ankunft",
+    "backToHome": "Zurück zur Startseite",
+    "printReceipt": "Beleg Drucken",
+    "emailSent": "Eine Bestätigungs-E-Mail wurde an Ihre E-Mail-Adresse gesendet.",
+    "questions": "Fragen? Kontaktieren Sie uns unter +49 123 456 7890"
+  },
+  "footer": {
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "hours": "Öffnungszeiten",
+    "hoursValue": "Mo-So: 11:00 - 22:00",
+    "address": "Musterstraße 123, Stadt",
+    "phone": "+49 123 456 7890",
+    "email": "info@restaurant.de",
+    "followUs": "Folgen Sie Uns",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "E-Mail eingeben",
+    "subscribe": "Abonnieren",
+    "copyright": "© 2024 Restaurant. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  }
+}

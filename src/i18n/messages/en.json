@@ -1,0 +1,382 @@
+{
+  "common": {
+    "appName": "Restaurant",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "currency": "€",
+    "minutes": "min",
+    "required": "Required"
+  },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "cart": "Cart",
+    "orders": "My Orders",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "admin": "Admin"
+  },
+  "home": {
+    "hero": {
+      "title": "Delicious Food, Delivered Fresh",
+      "subtitle": "Experience authentic flavors from our kitchen to your doorstep",
+      "cta": "View Menu",
+      "ctaSecondary": "Order Now"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "freshIngredients": {
+        "title": "Fresh Ingredients",
+        "description": "We use only the freshest, locally-sourced ingredients"
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Hot food delivered to your door in 30 minutes or less"
+      },
+      "easyOrdering": {
+        "title": "Easy Ordering",
+        "description": "Simple online ordering with real-time tracking"
+      }
+    },
+    "popular": {
+      "title": "Popular Dishes",
+      "viewAll": "View All"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say"
+    }
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Explore our delicious selection",
+    "searchPlaceholder": "Search dishes...",
+    "noResults": "No dishes found matching your criteria",
+    "filters": {
+      "title": "Filters",
+      "categories": "Categories",
+      "dietary": "Dietary",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "glutenFree": "Gluten Free",
+      "maxPrice": "Max Price",
+      "spiceLevel": "Spice Level",
+      "clearAll": "Clear All"
+    },
+    "categories": {
+      "all": "All",
+      "appetizers": "Appetizers",
+      "main_courses": "Main Courses",
+      "desserts": "Desserts",
+      "beverages": "Beverages",
+      "salads": "Salads",
+      "soups": "Soups",
+      "sides": "Sides",
+      "specials": "Specials"
+    },
+    "item": {
+      "addToCart": "Add to Cart",
+      "outOfStock": "Out of Stock",
+      "prepTime": "Prep time",
+      "calories": "calories",
+      "spicyLevel": "Spice Level",
+      "allergens": "Allergens",
+      "specialInstructions": "Special instructions",
+      "specialInstructionsPlaceholder": "Any special requests?"
+    }
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "emptySubtitle": "Add some delicious items from our menu",
+    "browseMenu": "Browse Menu",
+    "item": "item",
+    "items": "items",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "tax": "Tax (19%)",
+    "deliveryFee": "Delivery Fee",
+    "tip": "Tip",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "updateQuantity": "Update quantity",
+    "specialInstructions": "Special instructions"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "customerInfo": "Customer Information",
+    "orderType": "Order Type",
+    "delivery": "Delivery",
+    "pickup": "Pickup",
+    "deliveryAddress": "Delivery Address",
+    "specialInstructions": "Special Instructions",
+    "specialInstructionsPlaceholder": "Any special requests for your order?",
+    "payment": "Payment",
+    "paymentMethod": "Payment Method",
+    "card": "Credit/Debit Card",
+    "cash": "Cash on Delivery",
+    "cardNumber": "Card Number",
+    "cardholderName": "Cardholder Name",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "tip": "Add a Tip",
+    "tipNone": "No Tip",
+    "tipCustom": "Custom",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "processing": "Processing...",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+49 123 456 7890",
+      "addressPlaceholder": "123 Main St, City, Postal Code"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number",
+      "addressRequired": "Delivery address is required",
+      "cardNumberRequired": "Card number is required",
+      "cardNumberInvalid": "Invalid card number",
+      "cardholderRequired": "Cardholder name is required",
+      "expiryRequired": "Expiry date is required",
+      "expiryInvalid": "Invalid expiry date",
+      "cvvRequired": "CVV is required",
+      "cvvInvalid": "Invalid CVV"
+    }
+  },
+  "orders": {
+    "title": "My Orders",
+    "noOrders": "You haven't placed any orders yet",
+    "viewMenu": "Browse Our Menu",
+    "orderNumber": "Order #",
+    "placedOn": "Placed on",
+    "status": "Status",
+    "total": "Total",
+    "viewDetails": "View Details",
+    "trackOrder": "Track Order",
+    "reorder": "Reorder",
+    "statuses": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "out_for_delivery": "Out for Delivery",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "statusDescriptions": {
+      "pending": "Your order is being reviewed",
+      "confirmed": "Your order has been confirmed",
+      "preparing": "Our chefs are preparing your order",
+      "ready": "Your order is ready for pickup/delivery",
+      "out_for_delivery": "Your order is on its way",
+      "delivered": "Your order has been delivered",
+      "cancelled": "Your order was cancelled"
+    },
+    "estimatedTime": "Estimated Time",
+    "deliveryAddress": "Delivery Address",
+    "orderItems": "Order Items"
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "updateProfile": "Update Profile",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "updatePassword": "Update Password",
+    "deleteAccount": "Delete Account",
+    "deleteAccountWarning": "This action cannot be undone. All your data will be permanently deleted.",
+    "logout": "Logout",
+    "confirmDelete": "Yes, Delete My Account"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join us for delicious food",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email to receive a reset link",
+      "email": "Email",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": "Check your email for a reset link"
+    },
+    "resetPassword": {
+      "title": "Set New Password",
+      "password": "New Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Reset Password"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "emailInUse": "This email is already registered",
+      "weakPassword": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "generic": "An error occurred. Please try again."
+    }
+  },
+  "admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "menu": "Menu",
+      "inventory": "Inventory",
+      "customers": "Customers",
+      "settings": "Settings"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "totalOrders": "Total Orders",
+      "totalRevenue": "Total Revenue",
+      "averageOrder": "Average Order",
+      "pendingOrders": "Pending Orders",
+      "todayOrders": "Today's Orders",
+      "todayRevenue": "Today's Revenue",
+      "recentOrders": "Recent Orders",
+      "topItems": "Top Selling Items",
+      "ordersByStatus": "Orders by Status",
+      "revenueChart": "Revenue (Last 7 Days)"
+    },
+    "orders": {
+      "title": "Order Management",
+      "searchPlaceholder": "Search orders...",
+      "filterByStatus": "Filter by Status",
+      "updateStatus": "Update Status",
+      "orderDetails": "Order Details",
+      "customerInfo": "Customer Information",
+      "paymentInfo": "Payment Information"
+    },
+    "menu": {
+      "title": "Menu Management",
+      "addItem": "Add Menu Item",
+      "editItem": "Edit Menu Item",
+      "deleteItem": "Delete Item",
+      "deleteConfirm": "Are you sure you want to delete this item?",
+      "form": {
+        "name": "Name (English)",
+        "nameDE": "Name (German)",
+        "description": "Description (English)",
+        "descriptionDE": "Description (German)",
+        "price": "Price",
+        "category": "Category",
+        "image": "Image URL",
+        "available": "Available",
+        "vegetarian": "Vegetarian",
+        "vegan": "Vegan",
+        "glutenFree": "Gluten Free",
+        "spiceLevel": "Spice Level",
+        "prepTime": "Preparation Time (minutes)",
+        "calories": "Calories",
+        "allergens": "Allergens (comma separated)"
+      }
+    },
+    "inventory": {
+      "title": "Inventory Management",
+      "lowStock": "Low Stock Items",
+      "updateStock": "Update Stock",
+      "quantity": "Quantity",
+      "threshold": "Low Stock Threshold",
+      "lastRestocked": "Last Restocked"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Skip to main content",
+    "menuToggle": "Toggle menu",
+    "themeToggle": "Toggle theme",
+    "languageToggle": "Change language",
+    "closeModal": "Close modal",
+    "loading": "Loading content",
+    "cartIcon": "Shopping cart",
+    "increaseQuantity": "Increase quantity",
+    "decreaseQuantity": "Decrease quantity"
+  },
+  "orderConfirmation": {
+    "title": "Order Confirmed!",
+    "subtitle": "Thank you for your order",
+    "orderNumber": "Order Number",
+    "estimatedDelivery": "Estimated Delivery Time",
+    "estimatedPickup": "Estimated Pickup Time",
+    "orderDetails": "Order Details",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "tax": "Tax (19%)",
+    "deliveryFee": "Delivery Fee",
+    "tip": "Tip",
+    "total": "Total",
+    "delivery": "Delivery",
+    "pickup": "Pickup",
+    "specialInstructions": "Special Instructions",
+    "paymentInfo": "Payment Information",
+    "paymentCompleted": "Payment completed",
+    "cashOnDelivery": "Cash on Delivery",
+    "payOnArrival": "Pay when your order arrives",
+    "backToHome": "Back to Home",
+    "printReceipt": "Print Receipt",
+    "emailSent": "A confirmation email has been sent to your email address.",
+    "questions": "Questions? Contact us at +49 123 456 7890"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "hours": "Opening Hours",
+    "hoursValue": "Mon-Sun: 11:00 - 22:00",
+    "address": "123 Restaurant Street, City",
+    "phone": "+49 123 456 7890",
+    "email": "info@restaurant.com",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 Restaurant. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
